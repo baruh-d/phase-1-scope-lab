@@ -2,37 +2,27 @@
   "stats": {
     "suites": 6,
     "tests": 5,
-    "passes": 2,
+    "passes": 5,
     "pending": 0,
-    "failures": 3,
-    "start": "2023-09-26T06:14:31.201Z",
-    "end": "2023-09-26T06:14:31.505Z",
-    "duration": 304
+    "failures": 0,
+    "start": "2023-09-26T08:04:32.962Z",
+    "end": "2023-09-26T08:04:33.279Z",
+    "duration": 317
   },
   "tests": [
     {
       "title": "returns the customerName",
       "fullTitle": "Fix the Scope declare customerName to be bob in global scope returns the customerName",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to equal 'bob'",
-        "showDiff": true,
-        "expected": "bob",
-        "stack": "AssertionError: expected undefined to equal 'bob'\n    at Context.<anonymous> (test/indexTest.js:4:38)\n    at process.processImmediate (node:internal/timers:476:21)"
-      }
+      "err": {}
     },
     {
       "title": "modifies the customerName variable",
       "fullTitle": "Fix the Scope upperCaseCustomerName() modifies the customerName variable",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to equal 'bob'",
-        "showDiff": true,
-        "expected": "bob",
-        "stack": "AssertionError: expected undefined to equal 'bob'\n    at Context.<anonymous> (test/indexTest.js:10:38)\n    at process.processImmediate (node:internal/timers:476:21)"
-      }
+      "err": {}
     },
     {
       "title": "setBestCustomer",
@@ -46,63 +36,33 @@
       "fullTitle": "Fix the Scope overwriteBestCustomer() overwrites the best customer",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected 'not bob' to equal 'maybe bob'",
-        "showDiff": true,
-        "actual": "not bob",
-        "expected": "maybe bob",
-        "stack": "AssertionError: expected 'not bob' to equal 'maybe bob'\n    at Context.<anonymous> (test/indexTest.js:31:38)\n    at process.processImmediate (node:internal/timers:476:21)"
-      }
+      "err": {}
     },
     {
       "title": "unsuccessfully tries to reassign the least favorite customer",
       "fullTitle": "Fix the Scope changeLeastFavoriteCustomer() unsuccessfully tries to reassign the least favorite customer",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     }
   ],
   "pending": [],
-  "failures": [
+  "failures": [],
+  "passes": [
     {
       "title": "returns the customerName",
       "fullTitle": "Fix the Scope declare customerName to be bob in global scope returns the customerName",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to equal 'bob'",
-        "showDiff": true,
-        "expected": "bob",
-        "stack": "AssertionError: expected undefined to equal 'bob'\n    at Context.<anonymous> (test/indexTest.js:4:38)\n    at process.processImmediate (node:internal/timers:476:21)"
-      }
+      "err": {}
     },
     {
       "title": "modifies the customerName variable",
       "fullTitle": "Fix the Scope upperCaseCustomerName() modifies the customerName variable",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to equal 'bob'",
-        "showDiff": true,
-        "expected": "bob",
-        "stack": "AssertionError: expected undefined to equal 'bob'\n    at Context.<anonymous> (test/indexTest.js:10:38)\n    at process.processImmediate (node:internal/timers:476:21)"
-      }
-    },
-    {
-      "title": "overwrites the best customer",
-      "fullTitle": "Fix the Scope overwriteBestCustomer() overwrites the best customer",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected 'not bob' to equal 'maybe bob'",
-        "showDiff": true,
-        "actual": "not bob",
-        "expected": "maybe bob",
-        "stack": "AssertionError: expected 'not bob' to equal 'maybe bob'\n    at Context.<anonymous> (test/indexTest.js:31:38)\n    at process.processImmediate (node:internal/timers:476:21)"
-      }
-    }
-  ],
-  "passes": [
+      "err": {}
+    },
     {
       "title": "setBestCustomer",
       "fullTitle": "Fix the Scope setBestCustomer() setBestCustomer",
@@ -111,9 +71,16 @@
       "err": {}
     },
     {
+      "title": "overwrites the best customer",
+      "fullTitle": "Fix the Scope overwriteBestCustomer() overwrites the best customer",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
       "title": "unsuccessfully tries to reassign the least favorite customer",
       "fullTitle": "Fix the Scope changeLeastFavoriteCustomer() unsuccessfully tries to reassign the least favorite customer",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     }
